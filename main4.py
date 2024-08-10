@@ -1,7 +1,7 @@
 from mindee import Client, PredictResponse, product
 
 # Init a new client
-mindee_client = Client(api_key="db6dce8aeb7de126d5cfe5a1054b00a8")
+mindee_client = Client(api_key="apikey")
 
 # Load a file from disk
 input_doc = mindee_client.source_from_path("abc.pdf")
